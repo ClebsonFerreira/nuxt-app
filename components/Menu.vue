@@ -13,7 +13,7 @@
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item">Home</nuxt-link>
           <nuxt-link to="/about" class="navbar-item">Sobre</nuxt-link>
-          <nuxt-link to="/portfolio" class="navbar-item">Protifolio</nuxt-link>
+          <nuxt-link to="/portfolio" class="navbar-item">Portfolio</nuxt-link>
           <nuxt-link to="/contact" class="navbar-item">Contato</nuxt-link>
         </div>
       </div>

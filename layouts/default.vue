@@ -1,8 +1,7 @@
 <template>
   <div>
     <Menu/>
-    <br>
-    <nuxt class="container" />
+    <nuxt/>
   </div>
 </template>
 <script>
