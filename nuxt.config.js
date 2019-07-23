@@ -1,6 +1,9 @@
 
 export default {
   mode: 'universal',
+  router: {
+    base: '/site-nuxt/'
+  },
   /*
   ** Headers of the page
   */
