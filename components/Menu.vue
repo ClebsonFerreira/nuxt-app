@@ -3,13 +3,13 @@
     <div class="container">
       <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item logo">Camará<span>Tech</span></nuxt-link>
-        <a role="button" @click="navOpen" class="navbar-burger burger" v-bind:class="{ 'is-active': isActive }" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <a role="button" @click="navOpen" class="navbar-burger burger" :class="{ 'is-active': isActive }" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div id="navbarBasicExample" class="navbar-menu " v-bind:class="{ 'is-active': isActive }">
+      <div id="navbarBasicExample" class="navbar-menu " :class="{ 'is-active': isActive }">
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item">Home</nuxt-link>
           <nuxt-link to="/about" class="navbar-item">Sobre</nuxt-link>
