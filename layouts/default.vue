@@ -2,37 +2,16 @@
   <div>
     <Menu />
     <nuxt />
-    <section class="hero is-dark">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <h2 class="title">Contatos</h2>
-              <ul>
-                <li class="subtitle">teste</li>
-                <li class="subtitle">teste</li>
-                <li class="subtitle">teste</li>
-              </ul>
-            </div>
-            <div class="column">
-               <h2 class="title">Redes sociais</h2>
-              <ul>
-                <li class="subtitle">teste</li>
-                <li class="subtitle">teste</li>
-                <li class="subtitle">teste</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Footer/>
   </div>
 </template>
 <script>
 import Menu from "~/components/Menu.vue";
+import Footer from "~/components/Footer.vue";
 export default {
   components: {
-    Menu
+    Menu,
+    Footer
   }
 };
 </script>
